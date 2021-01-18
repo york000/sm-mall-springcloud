@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-common/sm-mall-common.iml" filepath="$PROJECT_DIR$/sm-mall-common/sm-mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-eureka/sm-mall-eureka.iml" filepath="$PROJECT_DIR$/sm-mall-eureka/sm-mall-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-gateway/sm-mall-gateway.iml" filepath="$PROJECT_DIR$/sm-mall-gateway/sm-mall-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-service/sm-mall-service.iml" filepath="$PROJECT_DIR$/sm-mall-service/sm-mall-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-api.iml" filepath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-service/sm-mall-service-file/sm-mall-service-file.iml" filepath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-file/sm-mall-service-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/sm-mall-service-goods.iml" filepath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/sm-mall-service-goods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/sm-mall-service-goods-api.iml" filepath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/sm-mall-service-goods-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-springcloud.iml" filepath="$PROJECT_DIR$/sm-mall-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sm-mall-web/sm-mall-web.iml" filepath="$PROJECT_DIR$/sm-mall-web/sm-mall-web.iml" />
+    </modules>
+  </component>
+</project>

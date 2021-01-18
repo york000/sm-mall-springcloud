@@ -1,5 +1,7 @@
 package org.york.sm.mall.goods.controller;
 
+import com.github.pagehelper.PageInfo;
+import jdk.nashorn.internal.objects.annotations.Getter;
 import org.springframework.web.bind.annotation.*;
 import org.york.sm.mall.entity.Result;
 import org.york.sm.mall.entity.StatusCode;
@@ -23,7 +25,6 @@ public class BrandController {
 
     @Resource
     private BrandService brandService;
-
 
     /**
      * 查询所有品牌信息
@@ -98,7 +99,47 @@ public class BrandController {
         if (id1 > 0) {
             return new Result<>(true, StatusCode.OK, "品牌删除成功");
         } else {
-            return new Result<>(true, StatusCode.OK, "品牌删除失败");
+            return new Result<>(false, StatusCode.OK, "品牌删除失败");
         }
     }
+
+    /**
+     * 品牌查询
+     *
+     * @param brand
+     * @return
+     */
+    @PostMapping(value = "/search")
+    public Result<List<Brand>> findList(@RequestBody Brand brand) {
+        List<Brand> brandList = this.brandService.findList(brand);
+        return new Result<>(true, StatusCode.OK, "品牌查询", brandList);
+    }
+
+    /**
+     * 分页查询成功
+     *
+     * @param page
+     * @param size
+     * @return
+     */
+    @GetMapping(value = "/search/{page}/{size}")
+    public Result<PageInfo<Brand>> findPage(@PathVariable("page") Integer page, @PathVariable("size") Integer size) {
+        PageInfo<Brand> pageInfo = brandService.findPage(page, size);
+        return new Result<PageInfo<Brand>>(true, StatusCode.OK, "分页查询成功", pageInfo);
+    }
+
+    /**
+     * 分页+ 条件
+     *
+     * @param brand
+     * @param page
+     * @param size
+     * @return
+     */
+    @PostMapping(value = "/search/{page}/{size}")
+    public Result<PageInfo<Brand>> findPage(@RequestBody Brand brand, @PathVariable("page") Integer page, @PathVariable("size") Integer size) {
+        PageInfo<Brand> pageInfo = brandService.findPage(brand, page, size);
+        return new Result<PageInfo<Brand>>(true, StatusCode.OK, "分页查询成功", pageInfo);
+    }
+
 }

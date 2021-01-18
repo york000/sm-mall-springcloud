@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sm-mall-eureka" />
+        <module name="sm-mall-service-goods" />
+        <module name="sm-mall-service-goods-api" />
+        <module name="sm-mall-common" />
+        <module name="sm-mall-service-file" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sm-mall-common" target="8" />
+      <module name="sm-mall-eureka" target="8" />
+      <module name="sm-mall-gateway" target="8" />
+      <module name="sm-mall-service" target="8" />
+      <module name="sm-mall-service-api" target="8" />
+      <module name="sm-mall-service-file" target="8" />
+      <module name="sm-mall-service-goods" target="8" />
+      <module name="sm-mall-service-goods-api" target="8" />
+      <module name="sm-mall-springcloud" target="8" />
+      <module name="sm-mall-web" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sm-mall-common" options="-parameters" />
+      <module name="sm-mall-eureka" options="-parameters" />
+      <module name="sm-mall-gateway" options="-parameters" />
+      <module name="sm-mall-service" options="-parameters" />
+      <module name="sm-mall-service-api" options="-parameters" />
+      <module name="sm-mall-service-file" options="-parameters" />
+      <module name="sm-mall-service-goods" options="-parameters" />
+      <module name="sm-mall-service-goods-api" options="-parameters" />
+      <module name="sm-mall-web" options="-parameters" />
+    </option>
+  </component>
+</project>

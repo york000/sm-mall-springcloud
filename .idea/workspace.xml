@@ -5,54 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88d5baad-3d3b-4d7b-a75c-9239eee8f863" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/sm-mall-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/BCrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/CacheKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/ChineseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/RandomValueUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/entity/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-eureka/src/main/java/org/york/sm/mall/eureka/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-api.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/CategoryBrand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Para.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Pref.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Sku.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Spec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Spu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/StockBack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-goods-api/src/main/java/org/york/sm/mall/goods/model/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/GoodsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/service/impl/BrandServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-springcloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sm-mall-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sm-mall-common/src/main/java/org/york/sm/mall/handler/BaseExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-file/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-file/src/main/java/org/york/sm/mall/FileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-file/src/main/java/org/york/sm/mall/file/model/FileUpLoadFastDfs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-file/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-file/src/main/resources/fastDfs_client.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-common/sm-mall-common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-service-api/sm-mall-service-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sm-mall-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/service/impl/BrandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/src/main/java/org/york/sm/mall/goods/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/target/classes/org/york/sm/mall/goods/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/target/classes/org/york/sm/mall/goods/controller/BrandController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/target/classes/org/york/sm/mall/goods/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/target/classes/org/york/sm/mall/goods/service/BrandService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/target/classes/org/york/sm/mall/goods/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sm-mall-service/sm-mall-service-goods/target/classes/org/york/sm/mall/goods/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sm-mall-springcloud.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -80,7 +60,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1n19M1O1fjaWMqHngZu1ALNuef5" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -90,6 +70,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -99,10 +80,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -119,7 +101,18 @@
       <recent name="org.york.sm.mall.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.GoodsApplication">
+  <component name="RunManager" selected="Spring Boot.FileApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="sm-mall-eureka" />
       <extension name="coverage">
@@ -129,6 +122,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.york.sm.mall.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sm-mall-service-file" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.york.sm.mall.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.york.sm.mall.FileApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -148,6 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.FileApplication" />
         <item itemvalue="Spring Boot.GoodsApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
@@ -162,12 +169,24 @@
       <option name="presentableId" value="Default" />
       <updated>1610546681101</updated>
       <workItem from="1610546682277" duration="12239000" />
-      <workItem from="1610803395718" duration="572000" />
+      <workItem from="1610803395718" duration="5488000" />
+      <workItem from="1610967813986" duration="1747000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化">
+      <created>1610804250397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610804250397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -179,8 +198,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化" />
   </component>
 </project>
